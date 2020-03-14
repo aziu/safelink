@@ -34,7 +34,7 @@ function verfy(){
           window.location.href = rand_post+'#'+enc;
         }
       };
-      xmlhttp.open("GET", "http://intj-mastermind.blogspot.com/feeds/posts/default?max-results=4&alt=rss&type=post", true);
+      xmlhttp.open("GET", "http://intj-mastermind.blogspot.com/feeds/posts/default?max-results=999&alt=rss&type=post", true);
       xmlhttp.send();
 }
 
